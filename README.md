@@ -34,7 +34,9 @@ argument 1 = protein.pdb
 
 - une fonction calcul_energy" qui permet à partir des distances enregistrées dans la précédente fonction, les énergies de liaison.
 
-- Une fonction main() qui permet de démarrer et d’exécuter le programme en tant que programme principal. Elle renvoie les sorties de chaque fonction définie précédemment.
+- Une fonction main() qui permet de démarrer et d’exécuter le programme en tant que programme principal. Elle renvoie les sorties de chaque fonction définie précédemment. Et pour ce faire, il faudra rentrer les lignes suivantes : 
+import matrix_marche
+matrix_marche.main()
 		
 # Comprendre les lignes de commande
 - ligne 23 à 43 : ici, le code extrait chaque atome (N,O,H,C) du fichier pdb et les conserve dans des listes. la liste "elements" contient le nom et la position de chaque résidu. cette dernière nous sera utile ultérieurement.
