@@ -15,6 +15,8 @@ conda config --add channels conda-forge
 
 conda update --yes conda
 
+conda install -c conda-forge -c schrodinger pymol-bundle
+
 # Installation des packages nécessaires : 
 math.
 
